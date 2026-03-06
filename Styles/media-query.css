@@ -1,0 +1,283 @@
+@media screen and (max-width:600px){
+    div:has(.image-container){
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .challenges-section{
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 20%;
+    }
+    .thousands-of-projects{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        grid-template-rows: repeat(auto,1fr);
+        padding: 1% 8%;
+        grid-gap: 1vw;
+    }
+   
+
+    .students-wall-of-fame-intro{
+        margin-top: 20%;
+        width: 100%;
+    }
+    .highlights>:first-child{
+        width: 100%;
+    }
+    .highlights>:first-child h1{
+        margin-bottom: 5%;
+    }   
+    .thousands-of-projects>div{
+        margin-bottom: 3%;
+    }
+    .chapter>:nth-child(2){
+        width: 100%;
+    }
+    .section4{
+        margin: 0;
+        width: 100%;
+    }
+    .chapter-number{
+        top: 4%;
+    }
+    .section5 *{
+        width: 100%;
+    }
+    .section5>:first-child>div {
+        width: 90%;
+        justify-content: center;
+    }
+    .section5>:first-child{
+        width: 100%;
+    }
+
+    .meet-bruno>:first-child>img{
+        margin: 15% auto;
+            
+    }
+    .meet-bruno>:first-child{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cube{
+        left: 50%;
+        top: 10%;
+    }
+    .pyramid{
+        left: 25%;
+        top: 25%;
+    }
+    .sphere{
+        top: 35%;
+    }
+    .rank1{
+        top: 0;
+        left: 30%;
+        width: 30%;
+        border-radius: 0 0 14px 14px;
+        border: 1px solid rgba(255, 255, 255, .2);
+    }
+      .rank2{
+        top: 0;
+        left: 30%;
+        width: 30%;
+        border-radius: 0 0 14px 14px;
+        border: 1px solid rgba(255, 255, 255, .2);
+    }
+    .rank3{
+        top: 0;
+        left: 30% !important;
+        width: 30%;
+        border-radius: 0 0 14px 14px  !important;
+        border: 1px solid rgba(255, 255, 255, .2);
+    }
+}
+@media screen and (max-width:1000px) {
+  
+    header{
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 25%;
+    }
+    .section3-content{
+        width: 100%;
+    }
+    .section3{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .section8-part1>a{
+        margin-top: 15%;
+    }
+    .section8-part2{
+        margin-top: 15%;
+    }
+    .highlights h1{
+        width: 100%;
+    }
+    .section10>div{
+        width: 100%;
+    }
+    .footer-elements{
+        width: 100%;
+    }
+    footer{
+        justify-content: flex-start;
+    }
+    header>div{
+        width: 90%;
+       
+    }.basics-01{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .basics-01 video{
+        width: 100%;
+    }
+    .launch-projects-section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-details{
+        width: 80vw;
+      
+    }
+   
+        .challenge-winners.winner{
+        width: 90%;
+    }
+    .footer-part-1{
+        margin-bottom: 70vh;
+    }
+
+
+}
+@media screen and (max-width:1208px) and (min-width:1000px) {
+    .section10>div{
+        width: 60%;
+    }
+   
+}
+@media screen and (max-width:1000px) and (min-width:400px)  {
+            .floating-container{
+                left:30%;
+                width:30%;
+            }
+}
+@media screen and (max-width:1000px) {
+   
+    .footer-section-2{
+        left:15%;
+        top: 90%;
+        width: clamp(250px,50%,300px);
+    }
+    .footer-part-1 video{
+        top: 300%;
+        left: 10%;
+        width: 80%;
+    }
+  
+   .sphere1{
+    top: 250%;
+   }
+   .pyramid1{
+    top: 90%;
+   }
+   .cube1{
+    top: 90%;
+   }
+}
+@media screen and (max-width:1000px) and (min-width:600px){
+    .footer-part-1{
+        margin-bottom: 100vh;
+    }
+    .footer-section-2{
+        left: 35%;
+    }
+}
+@media screen and (min-width:1000px) {
+    .footer-section-2>:first-child{
+       width: 112%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section11>div{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+@media screen and (max-width:990px) {
+    nav .login-section{
+        display: none;
+
+    }
+    nav ul{
+        display: none;
+
+    }
+    nav .mobile-nav {
+        display: block;
+    }
+    nav{
+        justify-content: space-between;
+        padding-right: 5% ;
+        padding-left: 5%;
+    }
+    .logo{
+        margin-left: 0%;
+    }
+    .navigate>a{
+   
+        min-width: 200px;
+        
+    }
+    
+}
+@media screen and (max-width:1100px) {
+    .join-page{
+        padding-left:0 !important;
+        padding-right: 0 !important;
+    }
+   
+}
+@media screen and (max-width:500px) and (min-width:400px) {
+    .footer-part-1{
+        margin-bottom: 90vh;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .selection-header{
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .thousands-of-projects {
+  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   
+    }
+}
+@media screen and (max-width:1250px) {
+    
+    .winner{
+         margin-bottom: 15%;
+    }
+
+}
+@media screen and (max-width:600px){
+    .sphere1{
+    top: 260%;
+   }
+}

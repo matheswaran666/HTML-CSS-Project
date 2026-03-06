@@ -1,0 +1,78 @@
+.login-page *{
+    font-family: greycliff-p;
+}
+.login-page{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    padding:clamp(200px,15%,15%) 15%;
+    flex-wrap: wrap;
+}
+.login-page>:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0.5;
+    min-width: 300px;
+  
+}
+.login-page div:has(img){
+   width: clamp(300px,17vw,17vw);
+    height:clamp(300px,19vw,19vw) ;
+   position: relative;
+    overflow: hidden;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-top: 10%;
+   
+}
+.login-page>:nth-child(2) img{
+    animation: login-animation  7s linear infinite alternate;
+}
+@keyframes login-animation {
+    0%{
+
+    }
+    100%{
+        transform: scale(1.1)  translateX(-10px);
+     
+    }
+}
+.login-page input{
+    width: 70%;
+    height: 5vh;
+    background: transparent;
+    border: 1px solid #81A3D7;
+    border-radius: 15px;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.login-page h1{
+    margin-left: -50%;
+  
+    margin-bottom: 10%;
+      font-family: greycliff-p;
+}
+.login-page>div>:nth-child(4){
+    margin-right: -40%;
+}
+.login-page>div>:nth-child(5){
+width: 70%;
+}
+
+.login-page button{
+    margin-top: 8%;
+    width: 100%;
+    background-color: #705df2;
+    border: none;
+    padding: 5%;
+    border-radius: 50px;
+    font-size: clamp(1rem,1vw,5rem);
+}
+.login-page button:hover{
+    background-color: white;
+    color: black;
+  
+}

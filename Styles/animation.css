@@ -1,0 +1,514 @@
+.footer-logo-div>svg path {
+    fill: #fff;
+}
+
+.footer-logo-div:hover>svg path {
+    animation: logo 0.6s ease-out alternate 1;
+    transition: 2s;
+
+
+}
+
+.footer-logo-div:hover .triangle-3 {
+    animation-delay: 0.03s;
+}
+
+.footer-logo-div:hover .triangle-2 {
+    animation-delay: 0.03s;
+}
+
+.footer-logo-div:hover .triangle-1 {
+
+    animation-delay: 0.2s;
+}
+
+.footer-logo-div:hover .face-1 {
+
+    animation-delay: 0.15s;
+}
+
+.footer-logo-div:hover .face-2 {
+
+    animation-delay: 0.08s;
+}
+
+.footer-logo-div:hover .face-3 {
+
+    animation-delay: 0.08s;
+}
+
+@keyframes logo {
+    30% {
+        fill: #fff;
+    }
+
+    100% {
+        fill: transparent;
+    }
+}
+
+footer div:has(.letter):hover .letter {
+    animation: textmove 2s alternate;
+}
+
+.footer-logo-div:hover .copyright svg path.letter {
+    animation: textmove 2s alternate;
+}
+
+.footer-logo-div .copyright svg path.letter {
+    transition: transform 2s;
+}
+
+.copyright svg path {
+    transform: translateX(-15px);
+}
+
+.footer-logo-div:hover .copyright svg path.t {
+    animation-delay: 0.1s;
+}
+
+.footer-logo-div:hover .copyright svg path.h {
+    animation-delay: 0.15s;
+}
+
+.footer-logo-div:hover .copyright svg path.r {
+    animation-delay: 0.2s;
+}
+
+.footer-logo-div:hover .copyright svg path.e {
+    animation-delay: 0.25s;
+}
+
+.footer-logo-div:hover .copyright svg path.dot {
+    animation-delay: 0.3s;
+}
+
+.footer-logo-div:hover .copyright svg path.j {
+    animation-delay: 0.3s;
+}
+
+.footer-logo-div:hover .copyright svg path.s {
+    animation-delay: 0.35s;
+}
+
+.footer-logo-div:hover .copyright svg path.j1 {
+    animation-delay: 0.4s;
+}
+
+.footer-logo-div:hover .copyright svg path.o {
+    animation-delay: 0.45s;
+}
+
+.footer-logo-div:hover .copyright svg path.u {
+    animation-delay: 0.5s;
+}
+
+.footer-logo-div:hover .copyright svg path.r1 {
+    animation-delay: 0.55s;
+}
+
+.footer-logo-div:hover .copyright svg path.n {
+    animation-delay: 0.6s;
+}
+
+.footer-logo-div:hover .copyright svg path.n {
+    animation-delay: 0.65s;
+}
+
+.footer-logo-div:hover .copyright svg path.e1 {
+    animation-delay: 0.7s;
+}
+
+.footer-logo-div:hover .copyright svg path.y {
+    animation-delay: 0.75s;
+
+}
+
+
+@keyframes textmove {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(1.5px);
+    }
+}
+
+@keyframes scroll-nav {
+    to {}
+
+}
+
+.chapter-number>:nth-child(1) {
+
+    animation: chapter-scroll1 linear;
+    animation-timeline: scroll(nearest);
+
+
+}
+
+.chapter-number>:nth-child(2) {
+
+    animation: chapter-scroll2 linear;
+    animation-timeline: scroll();
+
+}
+
+.chapter-number>:nth-child(3) {
+
+    animation: chapter-scroll3 linear;
+    animation-timeline: scroll();
+
+}
+
+.chapter-number>:nth-child(4) {
+
+    animation: chapter-scroll4 linear;
+    animation-timeline: scroll();
+
+}
+
+.chapter-number>:nth-child(5) {
+
+    animation: chapter-scroll5 linear;
+    animation-timeline: scroll();
+
+}
+
+.chapter-number>:nth-child(6) {
+
+    animation: chapter-scroll6 linear;
+    animation-timeline: scroll();
+
+}
+
+.chapter-number>:last-child {
+
+    animation: chapter-scroll7 linear forwards;
+    animation-timeline: scroll();
+
+}
+
+@keyframes chapter-scroll1 {
+    1% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        /* transition: opacity .3s; */
+
+    }
+
+    1% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 1;
+        border-right: 5px solid var(--chapter-border);
+
+    }
+
+
+}
+
+@keyframes chapter-scroll2 {
+    35% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        /* transition: opacity .3s; */
+
+
+    }
+
+    44% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+        /* --opacity: 1; */
+        border-right: 5px solid var(--chapter-border);
+
+    }
+
+
+
+
+
+}
+
+@keyframes chapter-scroll3 {
+    44% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity .3s;
+
+    }
+
+    52% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+
+        border-right: 5px solid var(--chapter-border);
+
+    }
+
+
+
+
+}
+
+@keyframes chapter-scroll4 {
+    52% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity .3s;
+
+    }
+
+    65% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity 1s;
+    }
+
+
+
+}
+
+@keyframes chapter-scroll5 {
+    65% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity .3s;
+
+    }
+
+    70% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity 1s;
+    }
+
+
+
+}
+
+@keyframes chapter-scroll6 {
+    75% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity .3s;
+
+    }
+
+    80% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity 1s;
+    }
+
+
+
+}
+
+@keyframes chapter-scroll7 {
+    85% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity .3s;
+
+    }
+
+    100% {
+        background: linear-gradient(to left, var(--chapter-color), var(--chapter-opacity));
+
+        --opacity: 0;
+        border-right: 5px solid var(--chapter-border);
+        transition: opacity 1s;
+    }
+
+}
+/* 
+div:has(.bar-line) {
+    margin-top: 5%;
+}
+
+div:has(.bar-line):hover .bar-line {
+    animation: bar-line 0.5s ease-in-out 1 forwards;
+    transform-origin: 24%;
+}
+
+div:has(.bar-line):hover .bar-line-2 {
+    display: none;
+}
+
+@keyframes bar-line {
+    0% {}
+
+    50% {
+        margin: 0;
+    }
+
+    100% {
+        transform: rotate(var(--rotate));
+    }
+
+}
+
+
+div:has(.bar-line) .bar-line {
+    animation: reverse-bar-line 0.5s ease-in-out infinite forwards;
+    transform-origin: 0;
+}
+
+div:has(.bar-line) .bar-line-2 {
+    display: block;
+} */
+
+.violet-animation:hover:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+
+    animation: buttonanimation 0.3s linear 1 alternate;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.violet-animation {
+    position: relative;
+    overflow: hidden;
+    animation: buttonanimation alternate;
+}
+
+
+
+@keyframes buttonanimation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%
+    }
+}
+
+a:has(.logo):hover .logo img{
+
+animation-name: imgmove;
+animation-direction: alternate;
+   animation-duration: 0.5s;
+   animation-fill-mode: both;
+
+}
+.logo img{
+    
+   animation-direction: alternate;
+   animation-duration: 0.5s;
+   animation-fill-mode: both;
+}
+
+@keyframes imgmove{
+    to{
+        transform: translateX(8px);
+      
+        
+    }
+}
+/* a:has(.logo):hover .logo svg .letter{
+    animation-name: imgmove ;
+animation-direction: alternate;
+   animation-duration: 0.5s;
+   animation-fill-mode: both;
+}
+.logo:hover svg path.t{
+        animation-delay: 0.1s;
+}
+.logo:hover svg path.h{
+    animation-delay: 0.15s;
+}
+.logo:hover svg path.r{
+    animation-delay: 0.2s;
+}
+.logo:hover svg path.e{
+    animation-delay: 0.25s;
+}
+.logo:hover svg path.dot{
+    animation-delay: 0.3s;
+}
+.logo:hover svg path.j{
+    animation-delay: 0.3s;
+}
+.logo:hover svg path.s{
+    animation-delay: 0.35s;
+}
+.logo:hover svg path.j1{
+    animation-delay: 0.4s;
+}
+.logo:hover svg path.o{
+    animation-delay: 0.45s;
+}
+.logo:hover svg path.u{
+    animation-delay: 0.5s;
+}
+.logo:hover svg :nth-child(11){
+    animation-delay: 0.55s;
+}
+.logo:hover svg path.n{
+    animation-delay: 0.6s;
+}
+.logo:hover svg path.n{
+    animation-delay: 0.65s;
+}
+.logo:hover svg :nth-child(13){
+    animation-delay: 0.7s;
+}
+.logo:hover svg path.y{
+    animation-delay: 0.75s;
+
+} */
+ .logo svg path {
+    fill: transparent;
+    stroke: #fff;
+    stroke-width:1;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: logotextanimantion2 4s ease-out  forwards;
+
+}
+
+@keyframes logotextanimantion2 {
+    0% {
+
+        stroke-dashoffset: 50;
+    }
+
+    90% {
+        fill: transparent;
+
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        fill: #fff;
+    }
+
+
+}

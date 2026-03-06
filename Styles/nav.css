@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    user-select:text;
+    
+}
+@font-face {
+    font-family: greycliff-bold;
+    src: url(../Assets/fonts/subset-GreycliffCF-ExtraBold.woff2);
+}
+
+@font-face {
+    font-family: greycliff-p;
+    src: url(../Assets/fonts/subset-GreycliffCF-Bold\ \(1\).woff2);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: greycliff-p-bold;
+    src: url(../Assets/fonts/subset-GreycliffCF-Bold.woff2);
+}
+::selection {
+    color: #140B29;
+    background-color: #E381FF;
+
+}
+nav *{
+    font-family: greycliff-p;
+}
+nav ul li a{
+    font-family: greycliff-p;
+    font-weight: 100;
+}
+#no-dec{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #8A8594;
+}
+nav{
+    width: 100%;
+    position: fixed;
+   z-index: 10;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent; 
+    backdrop-filter: blur(10px);
+     
+}
+ul{
+    column-gap: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;     
+    list-style: none;
+  
+  
+}
+:is(#Le,#ch,#se,#hi):target{
+    padding: 8% 2%;
+    border-top: 4px solid #705df2 ;
+    background: linear-gradient(to bottom, rgba(112, 93, 242, .2), rgba(112, 93, 242, 0));
+    color:#fff;
+    text-decoration: underline;
+
+}
+:is(#Le,#ch,#se,#hi):target a{
+    color:#fff;
+}
+li{
+    padding: 8% 2%;
+}
+a:hover {                   
+    color: white;
+    text-decoration: underline;
+}
+span{
+    color: white;
+    font-weight: 900;
+}
+
+nav>:last-child{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.logo{
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+    
+}
+.logo>*{
+    margin-right: 5%;
+}
+.logo a:hover{
+    text-decoration: none;
+}
+
+.login-section{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    margin-right: 1%;
+}
+.login-section>*{
+    margin-right: 0%;
+   
+}
+.login a{
+    font-weight: 900;
+    color: white;
+}
+.login{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25%;
+    padding-right: 10%;
+
+}
+.login img{
+    margin-right: 10px;
+}
+.login-section button{
+  
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 6% 3%;
+    border-radius: 25px;
+    background-color: #705df2;
+    border: none;
+    font-size: clamp(1rem,1vw,3rem);
+    font-weight: 900;
+    flex-grow: 1;   
+
+  
+}
+.login-section button img{
+    padding-left: 8%;
+}
+
+.login-section a:has(button){
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+}
+* p{
+    font-family: greycliff-p;
+}
+.no-dec:hover{
+    text-decoration: none;
+}
+#nav-pop-up{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+   position: fixed;
+    display: none;
+   top: 0%;
+   left: 0%;
+   background: #140B29;
+   backdrop-filter: blur(10px);
+    z-index: -1;
+  
+    background:linear-gradient(to bottom,#140B29 70%,transparent);
+    
+}
+#nav-pop-up a{
+
+    font-size: clamp(2.7rem,5vw,5vw);
+    font-family: greycliff-p;
+    margin-bottom: 10%;
+}
+
+nav .mobile-nav{
+    display: none;
+    position: relative;
+}
+#nav-pop-up:target{
+    display: block;
+    display: flex;
+}
+.navigate{
+    padding: 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10%;
+    flex-wrap: nowrap;
+}
+.menu-icon i{
+   font-size: 2rem;
+}
+:is(#Ho,#Ch1,#Se1,#Hi1):target{
+    padding: 2% 3.8% ;
+    border-left: 4px solid #705df2 ;
+    background: linear-gradient(to bottom, rgba(112, 93, 242, .2), rgba(112, 93, 242, 0));
+    color:#fff;
+    text-decoration: underline;
+
+}
+#nav-pop-up .login-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-pop-up .login-section1 a{
+        font-size: clamp(1rem,2vw,1rem);
+        color: #fff;
+}
+.login1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 25%;
+        margin-left: -60%;
+}
+.login1 img{
+        margin-right: 10px;
+}
+
+#nav-pop-up .login-section1 button{
+    background-color:#705df2 ;
+    border: none;
+    padding: 30% 60%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 30%;
+    
+
+}
+.bar-line{
+        width: 28px;
+        height: 4px;
+        background-color: #705df2;
+        margin-bottom: 25%;
+        border-radius: 2px;
+    
+}
+nav .mobile-nav .menu-icon{
+    display: block;
+}
+.logo{
+    margin-left: 15%;
+    
+}
+.navigate>a{
+   
+   min-width: 250px;
+   
+}
+.cross-button {
+    position: absolute;
+    right: 5%;
+    top: 7%;
+}
