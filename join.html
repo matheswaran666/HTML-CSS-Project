@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../Styles/nav.css">
-    <link rel="stylesheet" href="../Styles/homepage.css">
-    <link rel="stylesheet" href="../Styles/footer-part-1.css">
-    <link rel="stylesheet" href="../Styles/highlights.css">
-    <link rel="stylesheet" href="../Styles/footer.css">
-    <link rel="stylesheet" href="../Styles/animation.css">
-    <link rel="stylesheet" href="../Styles/challenge.css">
-    <link rel="stylesheet" href="../Styles/media-query.css">
-    <link rel="stylesheet" href="../Styles/login-page.css">
+    <link rel="stylesheet" href="Styles/nav.css">
+    <link rel="stylesheet" href="Styles/homepage.css">
+    <link rel="stylesheet" href="Styles/footer-part-1.css">
+    <link rel="stylesheet" href="Styles/highlights.css">
+    <link rel="stylesheet" href="Styles/footer.css">
+    <link rel="stylesheet" href="Styles/animation.css">
+    <link rel="stylesheet" href="Styles/challenge.css">
+    <link rel="stylesheet" href="Styles/media-query.css">
+    <link rel="stylesheet" href="Styles/login-page.css">
+    <link rel="stylesheet" href="Styles/join.css">
 
 
     <script src="https://kit.fontawesome.com/8821ae11d8.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <main>
         <nav id="nav">
 
             <div class="navigate">
-                <a href="homepage.html">
+                <a href="index.html">
                     <div class="logo">
-                        <img src="../Assets/svg/homepage-svg/logo.svg" alt="">
+                        <img src="Assets/svg/homepage-svg/logo.svg" alt="">
                         <svg width="160" height="22" viewBox="0 0 160 22" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path class="letter t"
@@ -93,11 +96,11 @@
             </div>
             <div class="login-section">
                 <div class="login">
-                    <img src="../Assets/svg/homepage-svg/person-icon.svg" alt="">
+                    <img src="Assets/svg/homepage-svg/person-icon.svg" alt="">
                     <a href="login-page.html">Login</a>
                 </div>
 
-                <a href="join.html" class="no-dec"><button  class="violet-animation">Start learning now <img src="../Assets/svg/homepage-svg/icon.svg"
+                <a href="join.html" class="no-dec violet-animation"><button>Start learning now <img src="Assets/svg/homepage-svg/icon.svg"
               alt=""></button></a>
 
             </div>
@@ -115,11 +118,11 @@
                     <a href="">
                         <div>
                             <a href="#">
-                                <img src="../Assets/svg/homepage-svg/cross-button.svg" class="cross-button" alt="">
+                                <img src="Assets/svg/homepage-svg/cross-button.svg" class="cross-button" alt="">
                             </a>
                         </div>
                     </a>
-                    <a href="homepage.html#Ho" id="Ho">
+                    <a href="index.html#Ho" id="Ho">
                         Home
                     </a>
                     <a href="challenges.html">
@@ -133,11 +136,11 @@
                     </a>
                     <div class="login-section1">
                         <div class="login1">
-                            <img src="../Assets/svg/homepage-svg/person-icon.svg" alt="">
+                            <img src="Assets/svg/homepage-svg/person-icon.svg" alt="">
                             <a href="login-page.html">Login</a>
                         </div>
         
-                        <a href="join.html" class="no-dec"><button  class="violet-animation">Start<img src="../Assets/svg/homepage-svg/icon.svg"
+                        <a href="join.html" class="no-dec"><button  class="violet-animation">Start<img src="Assets/svg/homepage-svg/icon.svg"
                       alt=""></button></a>
         
                     </div>
@@ -145,23 +148,108 @@
                 
             </div>
         </nav>
-        <section class="login-page">
+        <section class="join-page">
+            <div>
                 <div>
-                    <h1>Login</h1>
-                    <input type="email"  placeholder="Email*">
-                    <input type="password"  placeholder="Password*">
-                    <a href="https://threejs-journey.com/password/reset/request" class="white solid">
-                        Forgot your password?
-                    </a>
-                    <a href="join.html">
-                        <button class="violet-animation start-learning-button-login">
-                            Start learning
-                        </button>
-                    </a>
+                    <h1>
+                        Join Three.js Journey
+                    </h1>
                 </div>
                 <div>
-                    <img  src="../Assets/images/login-illustration.webp" alt="">
+                    <a href="join.html" class="join-page-content no-dec"  id="join-page-content">
+                        <h4>For myself</h4>
+                        <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1 15.9999C2.32541 13.7892 5.468 11.9999 10 11.9999C14.532 11.9999 17.6746 13.7892 19 15.9999M13.7 4.6C13.7 6.58823 12.0882 8.2 10.1 8.2C8.11178 8.2 6.5 6.58823 6.5 4.6C6.5 2.61177 8.11178 1 10.1 1C12.0882 1 13.7 2.61177 13.7 4.6Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round"></path>
+                        </svg>
+                    </a>
+                    <a href="gift.html" class="gift-page-content no-dec" id="gift-page-content">
+                        <h4>
+                            It's a gift
+                        </h4>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.1749 20.6535V6.68988M9.54994 5.85219C9.72281 5.89098 9.90498 5.84344 10.0294 5.71898C10.1539 5.59452 10.2014 5.41229 10.1627 5.23948C10.0075 4.6057 9.43596 2.48346 8.84909 1.89659C8.11793 1.16543 6.92793 1.16239 6.20039 1.88993C5.4729 2.61742 5.47584 3.80742 6.20705 4.53863C6.80352 5.1351 8.91618 5.69705 9.54994 5.85219ZM11.3245 5.23943C11.2857 5.4123 11.3333 5.59447 11.4577 5.71893C11.5822 5.84339 11.7644 5.89086 11.9372 5.85214C12.571 5.69699 14.6932 5.12545 15.2801 4.53858C16.0113 3.80742 16.0143 2.61742 15.2868 1.88988C14.5593 1.16239 13.3693 1.16533 12.6381 1.89654C12.0416 2.49301 11.4797 4.60567 11.3245 5.23943ZM2.09857 11.5772H19.9022C20.2878 11.5772 20.6004 11.2646 20.6004 10.879V7.38806C20.6004 7.00247 20.2878 6.68988 19.9022 6.68988H2.09857C1.71298 6.68988 1.40039 7.00247 1.40039 7.38806V10.879C1.40039 11.2646 1.71298 11.5772 2.09857 11.5772ZM18.8549 11.5772V19.9553C18.8549 20.3409 18.5423 20.6535 18.1568 20.6535H3.84403C3.45843 20.6535 3.14584 20.3409 3.14584 19.9553V11.5772H18.8549Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
                 </div>
+                <!-- <div class="gift-1">
+                    <h3>
+                        It's easy
+                    </h3>
+                    <ol>
+                        <li>
+                            You buy the course with your email address
+                        </li>
+                        <li>
+                            You receive a confirmation email with a link to complete your billing info
+                        </li>
+                        <li>
+                            You pick an option to send the course access to the recipient:
+                        </li>
+                        <ul>
+                            <li>
+                                We send an email to the recipient
+                            </li>
+                            <li>
+                                You share by yourself
+                            </li>
+                        </ul>
+                    </ol>
+                </div> -->
+                <div>
+                    <div class="input-container">
+                        <label for="email">Email*</label>
+                        <input type="email">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2.6875 2.75L9.35964 7.54025C9.74489 7.81684 10.2551 7.81684 10.6404 7.54025L17.3125 2.75M3.25 15H16.75C17.9926 15 19 13.9553 19 12.6667V3.33333C19 2.04467 17.9926 1 16.75 1H3.25C2.00736 1 1 2.04467 1 3.33333V12.6667C1 13.9553 2.00736 15 3.25 15Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="input-container" id="discount">
+                        <label for="email">discount code</label>
+                        <input type="email">
+                        <a href="" class="pointer-event-none">
+                            <button class=" white-violet">
+                                Apply
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="address-container">
+                        <div class="terms-agree-checkbox">
+
+                            <div class="address-container-input">
+                                <input type="checkbox">
+                            </div>
+
+                            <h4>I acknowledge and agree to the <a target="_blank"
+                                    href="https://threejs-journey.com/general-conditions" class="white solid wave">
+                                    General
+                                        Conditions of Sale and Use
+                                </a>
+                            </h4>
+
+
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <a href="#discount  ">
+                            <button>
+                                I have a discount
+                            </button>
+                        </a>
+                        <a href="#" class="pointer-event-none ">
+                            <button class="next  white-violet">
+                                Next step
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer>
 
@@ -376,4 +464,5 @@
         </footer>
     </main>
 </body>
+
 </html>
